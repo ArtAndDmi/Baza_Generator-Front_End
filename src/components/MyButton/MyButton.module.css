@@ -1,0 +1,28 @@
+.button{
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    border: .1em solid red;
+    border-radius: .8em;
+    width: 10em;
+    font-size: 2.5vw;
+    padding: .5em;
+    /*transition: 0.2s;*/
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: .9;
+}
+
+.button:active{
+    opacity: .8;
+}
+
+@media (max-width: 800px) {
+    .button {
+        margin-top: 1vh;
+        width: 15em;
+        height: 3em;
+        font-size: 5vw;
+    }
+}

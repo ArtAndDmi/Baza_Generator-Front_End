@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vw;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #383838;
+    margin-top: 0;
+    font-size: 2vw;
+    height: 3em;
+    padding: 1em;
+    width: 20em;
+    border-radius: .8em;
+}
+
+
+
+@media (max-width: 800px) {
+    .container{
+        margin-bottom: 2em;
+    }
+    .text{
+        margin-bottom: 0;
+        font-size: 4vw;
+    }
+    .button{
+        margin-top: 1vh;
+        font-size: 3vw;
+
+    }
+
+
+}

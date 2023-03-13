@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.bazaInput{
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1em;
+    width: 20em;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: .8em;
+
+}
+
+@media (max-width: 800px) {
+
+    .bazaInput{
+        font-size: 4vw;
+    }
+    .button{
+        font-size: 3vw;
+    }
+}
