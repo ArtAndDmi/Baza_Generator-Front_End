@@ -1,8 +1,9 @@
+import axios from "axios";
+
 async function getData(): Promise<string[]> {
 	try {
-		const promise = await fetch('https://jsonplaceholder.typicode.com/todos')
-		const data = await promise.json()
-
+		const response = await axios.get('https://jsonplaceholder.typicode.com/todos')
+		const data = response.data
 		return data.map((index: { title: string }) => index.title)
 
 	} catch {
